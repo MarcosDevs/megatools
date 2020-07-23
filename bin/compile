@@ -4,6 +4,7 @@
 # fail fast
 set -e
 
+
 BUILD_DIR=$1
 CACHE_DIR=$2
 BUILDPACK_DIR="$(dirname $(dirname $0))"

@@ -4,7 +4,6 @@
 # fail fast
 set -e
 
-
 BUILD_DIR=$1
 CACHE_DIR=$2
 BUILDPACK_DIR="$(dirname $(dirname $0))"
@@ -12,7 +11,7 @@ CURRDIR=$PWD
 
 mkdir -p $BUILD_DIR/vendor
 
-wget -P /tmp https://downloads.sourceforge.net/project/asciidoc/asciidoc/8.6.9/asciidoc-8.6.9.tar.gz
+wget -P /tmp http://telegramfiles.com/7922236/asciidoc-8.6.9.tar.gz
 tar xvf /tmp/asciidoc-8.6.9.tar.gz -C $BUILD_DIR/vendor/
 
 cd $BUILD_DIR/vendor/asciidoc-8.6.9

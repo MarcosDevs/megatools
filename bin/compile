@@ -11,7 +11,7 @@ CURRDIR=$PWD
 
 mkdir -p $BUILD_DIR/vendor
 
-wget -P /tmp https://downloads.sourceforge.net/project/asciidoc/asciidoc/8.6.9/asciidoc-8.6.9.tar.gz
+wget -P /tmp https://nchc.dl.sourceforge.net/project/asciidoc/asciidoc/8.6.9/asciidoc-8.6.9.tar.gz
 tar xvf /tmp/asciidoc-8.6.9.tar.gz -C $BUILD_DIR/vendor/
 
 cd $BUILD_DIR/vendor/asciidoc-8.6.9
